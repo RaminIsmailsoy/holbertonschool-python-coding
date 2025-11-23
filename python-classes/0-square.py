@@ -2,11 +2,12 @@
 """Square module.
 
 This module contains a class that defines a square.
-
 """
 
 
-class Square():
+class Square:
     """Defines a square."""
 
-    pass
+    def __init__(self, size):
+        """Initialize the square with a size."""
+        self.__size = size
