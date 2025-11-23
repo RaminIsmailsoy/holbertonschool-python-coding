@@ -1,22 +1,21 @@
 #!/usr/bin/python3
-"""Module for creating Square class with print functionality."""
-
+"""Class"""
 
 class Square:
-    """A class representing a square."""
+    """Class name"""
 
     def __init__(self, size=0):
-        """Initialize the square."""
+        """Start a new square"""
         self.size = size
 
     @property
     def size(self):
-        """Get the size of the square."""
+        """Size of the square"""
         return self.__size
 
     @size.setter
     def size(self, value):
-        """Set the size of the square."""
+        """Set the size of the square"""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if value < 0:
