@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""Square module.
-
-This module contains a class that defines a square.
-"""
+"""Square module"""
 
 
 class Square:
-    """Defines a square."""
+    """Defines a square"""
 
     def __init__(self, size):
         """Initialize the square with a size."""
